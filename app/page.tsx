@@ -7,18 +7,18 @@ export default function Home() {
           <h2 className="text-xl font-semibold mb-2">Available Endpoints:</h2>
           <ul className="list-disc pl-5 space-y-2">
             <li>
-              <code className="bg-gray-100 p-1 rounded">/api/all</code> - Returns all countries
+              <code className="bg-gray-100 p-1 rounded">/api/all</code> -
+              Returns all countries
             </li>
             <li>
-              <code className="bg-gray-100 p-1 rounded">/api/name/{"{name}"}</code> - Filters countries by name
+              <code className="bg-gray-100 p-1 rounded">
+                /api/name/{"{name}"}
+              </code>{" "}
+              - Filters countries by name
             </li>
           </ul>
         </div>
-        <p className="text-sm text-gray-600">
-          Note: You need to provide the countries JSON data to use these endpoints.
-        </p>
       </div>
     </main>
-  )
+  );
 }
-
